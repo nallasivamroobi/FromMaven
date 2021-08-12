@@ -7,94 +7,23 @@ import cucumber.api.java.Before;
 public class Sample {
 
 	
-	@Test(priority=-1)
+	@Test(priority=5)
 	public void m()
 	{
-		System.out.println("name");
+		System.out.println("Nallasivam Roobini");
 	}
 	
-	@Test(priority=1)
+	@Test(priority=20)
 	public void m1()
 	{
-		System.out.println("name m1");
+		System.out.println("Bengaluru Chennai Maharasthra");
 	}
 	
 	@Test()
 	public void m3()
 	{
-		System.out.println("name m3");
+		System.out.println("Madurai , Korkai , Dindigul , PandiaNaadu");
 	}
 	
-	
-	
-//	
-//	
-//	
-//	
-//	@BeforeSuite
-//	public void beforeSuite()
-//	{
-//		System.out.println("before suite");
-//	}
-//	@BeforeMethod
-//	public void beforeMethod()
-//	{
-//		System.out.println("before method");
-//	}
-//	
-//	@BeforeClass
-//	public void beforeClass()
-//	{
-//		System.out.println("before class");
-//	}
-//	
-// @BeforeTest
-// public void beforeTest()
-// {
-//	 System.out.println("before test");
-// }
-//	
-//	@Test(enabled=false)
-//	public void test()
-//	{
-//		System.out.println(" first Test case");
-//	}
-//	
-//	@Test(enabled=false)
-//	public void test2()
-//	{
-//		System.out.println(" Second test case");
-//	}
-//	
-//	
-//	@AfterSuite
-//	public void beforeSuite1()
-//	{
-//		System.out.println("after suite");
-//	}
-//	@AfterMethod
-//	public void afterMethod()
-//	{
-//		System.out.println("after method");
-//	}
-//	
-//	@AfterClass
-//	public void afterClass()
-//	{
-//		System.out.println("after class");
-//	}
-//	
-// @AfterTest
-// public void afterTest()
-// {
-//	 System.out.println("after test");
-// }
-// 
-// @Test(invocationCount=90)
-//	public void test3()
-//	{
-//		System.out.println(" Third test case");
-//	}
-	
- 
+	 
 }
