@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73" started-at="2021-08-04T05:14:26Z" finished-at="2021-08-04T05:14:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73" started-at="2021-08-04T05:14:26Z" finished-at="2021-08-04T05:14:26Z">
+      <class name="org.sample.Sample">
+        <test-method status="PASS" signature="m()[pri:-1, instance:org.sample.Sample@7d9d1a19]" name="m" duration-ms="12" started-at="2021-08-04T05:14:26Z" finished-at="2021-08-04T05:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:org.sample.Sample@7d9d1a19]" name="m3" duration-ms="4" started-at="2021-08-04T05:14:26Z" finished-at="2021-08-04T05:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="m1()[pri:1, instance:org.sample.Sample@7d9d1a19]" name="m1" duration-ms="5" started-at="2021-08-04T05:14:26Z" finished-at="2021-08-04T05:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- org.sample.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
